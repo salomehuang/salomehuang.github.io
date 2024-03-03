@@ -1,0 +1,149 @@
+#content {
+	width: 500px;
+	height: 100vh;
+	background: #f4f4f4;
+	margin: 0 auto;
+	position: relative;
+}
+
+#navbar { /* navbar */ 
+	height: 60px;
+	background: #ffffff;
+	cursor: pointer;
+}
+
+.navbar-item { 
+	float: right;
+	margin-right: 10px;
+	margin-left: 10px;
+	line-height: 60px;
+	opacity: 0.5;
+}
+
+#header {
+	position: relative;
+	top: 0px;
+	width: 100%;
+	height: 100px;
+	padding: 10px 0px;
+}
+
+#profile-pic {
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	margin: 20px 60px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#information {
+	display: inline-block;
+	position: absolute;
+	height: 80px;
+	left: 170px;
+	margin-top: 10px;
+	margin-left: -10px;
+	color: rgba(0,0,0, .7);
+}
+
+#username {
+	font-size: 24px;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+#follow-button {
+	background: #007bb5;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 10px;
+	color: white;
+	top: 5px;
+	bottom: 5px;
+	left: 30px;
+	right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	cursor: pointer;
+}
+
+#follow-button:active {
+	font-size: 18px;
+}
+
+#about {
+	font-size: 12px;
+	margin-top: 8px;
+	color: rgba(0,0,0, .5);
+	line-height: 1.5em;
+	width: 270px;
+}
+
+.navbar-item:hover {
+	opacity: 1;
+}
+
+.row {
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.item {
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: inline-block;
+	opacity: 0.7;
+	overflow: hidden;
+	height: 120px;
+	width: 120px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.item:hover {
+	transition-duration: 0.2s;
+	opacity: 1.00;
+}
+
+#profile-pic {
+	position: relative;
+	border-radius:100%;
+	overflow:hidden;
+}
+
+#design {
+	text-decoration: underline;
+	color: black;
+	opacity: 0.6;
+	transition: 0.2s;
+	text-align: center;
+	position: fixed;
+	right: 40px;
+	bottom: 30px;
+}
+
+#design:hover {
+	opacity: 1;
+	text-decoration: underline;
+}
+
+img {
+	height: 130%;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+html, body {
+	background: #fafafa;
+	font-family: 'Roboto', sans-serif;
+	margin: 0%;
+}
